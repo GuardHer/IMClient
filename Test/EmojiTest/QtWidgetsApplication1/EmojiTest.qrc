@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/EmojiTest">
+        <file>res/left.png</file>
+        <file>res/right.png</file>
+    </qresource>
+</RCC>

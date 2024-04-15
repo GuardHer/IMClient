@@ -1,0 +1,104 @@
+🐒 Monkey
+🦍 Gorilla
+🦧 Orangutan
+🐕 Dog
+🦮 Guide Dog
+🐕‍🦺 Service Dog
+🐩 Poodle
+🦝 Raccoon
+🐈 Cat
+🐈‍⬛ Black Cat
+🐅 Tiger
+🐆 Leopard
+🐎 Horse
+🦓 Zebra
+🦬 Bison
+🐂 Ox
+🐃 Water Buffalo
+🐄 Cow
+🐖 Pig
+🐗 Boar
+🐽 Pig Nose
+🐏 Ram
+🐑 Ewe
+🐐 Goat
+🐪 Camel
+🐫 Two-Hump Camel
+🦙 Llama
+🦒 Giraffe
+🐘 Elephant
+🦣 Mammoth
+🦏 Rhinoceros
+🦛 Hippopotamus
+🐁 Mouse
+🐀 Rat
+🐇 Rabbit
+🐿 Chipmunk
+🦫 Beaver
+🦔 Hedgehog
+🦇 Bat
+🦥 Sloth
+🦦 Otter
+🦨 Skunk
+🦘 Kangaroo
+🦡 Badger
+🐾 Paw Prints
+🦃 Turkey
+🐔 Chicken
+🐓 Rooster
+🐣 Hatching Chick
+🐤 Baby Chick
+🐥 Front-Facing Baby Chick
+🐦 Bird
+🪹 Empty Nest
+🪺 Nest with Eggs
+🐧 Penguin
+🕊 Dove
+🦅 Eagle
+🦆 Duck
+🦢 Swan
+🦉 Owl
+🦤 Dodo
+🪶 Feather
+🦩 Flamingo
+🦚 Peacock
+🦜 Parrot
+🐊 Crocodile
+🐢 Turtle
+🦎 Lizard
+🐍 Snake
+🐉 Dragon
+🦕 Sauropod
+🦖 T-Rex
+🐳 Spouting Whale
+🐋 Whale
+🐬 Dolphin
+🦭 Seal
+🐟 Fish
+🐠 Tropical Fish
+🐡 Blowfish
+🦈 Shark
+🐙 Octopus
+🐚 Spiral Shell
+🪸 Coral
+🦀 Crab
+🦞 Lobster
+🦐 Shrimp
+🦑 Squid
+🦪 Oyster
+🐌 Snail
+🦋 Butterfly
+🐛 Bug
+🐜 Ant
+🐝 Honeybee
+🪲 Beetle
+🐞 Lady Beetle
+🦗 Cricket
+🪳 Cockroach
+🕷 Spider
+🕸 Spider Web
+🦂 Scorpion
+🦟 Mosquito
+🪰 Fly
+🪱 Worm
+🦠 Microbe

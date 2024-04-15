@@ -1,0 +1,32 @@
+ip：139.224.250.45
+
+用户名：root
+密码：Tgs061207
+
+数据库密码：tang044438
+
+
+frpc（树莓派）：
+sudo systemctl start frpc  # 启动命令
+sudo systemctl stop frpc  # 停止命令
+sudo systemctl restart frpc  # 重启命令
+sudo systemctl status frpc  # 查看状态
+sudo systemctl daemon-reload
+sudo systemctl enable frpc
+
+frps（服务器）：
+sudo systemctl start frps # 启动命令
+sudo systemctl stop frps # 停止命令
+sudo systemctl restart frps # 重启命令
+sudo systemctl status frps # 查看状态
+
+frps.ini : /etc/frp/
+
+sudo journalctl -u frps.service  # 查看日志
+
+【pi】
+sudo systemctl status vncserver-x11-serviced.service
+sudo lsof -i :5900 # 查看端口活动
+
+如果VNC连不上，显示黑屏请看：https://blog.csdn.net/qq_43513908/article/details/126678030
+  

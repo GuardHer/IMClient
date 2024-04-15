@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+***************************************************************************************************
+ Copyright (C) 2023 The Qt Company Ltd.
+ SPDX-License-Identifier: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+***************************************************************************************************
+-->
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6B07DA76-33BB-4957-9FB7-24BB52D4E7AD}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.22000.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>5.15.2_msvc2019_64</QtInstall>
+    <QtModules>core;sql;network;gui;widgets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>5.15.2_msvc2019_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <OutDir>../../bin/IMClient/</OutDir>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>E:\StudyVideo\IMClient\src\IMClient;E:\StudyVideo\IMClient\include\libhv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <PreprocessorDefinitions>HV_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>E:\StudyVideo\IMClient\lib\libhv;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;hv_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddFriendWidget.cpp" />
+    <ClCompile Include="base\config.cpp" />
+    <ClCompile Include="base\crc64.cpp" />
+    <ClCompile Include="base\crcspeed.cpp" />
+    <ClCompile Include="base\Date.cpp" />
+    <ClCompile Include="base\Logging.cpp" />
+    <ClCompile Include="base\LogStream.cpp" />
+    <ClCompile Include="base\Timestamp.cpp" />
+    <ClCompile Include="base\TimeZone.cpp" />
+    <ClCompile Include="ByteArray.cpp" />
+    <ClCompile Include="ChatInput.cpp" />
+    <ClCompile Include="ChatListWidget.cpp" />
+    <ClCompile Include="chatMessage.cpp" />
+    <ClCompile Include="ClientSession.cpp" />
+    <ClCompile Include="ContactId.cpp" />
+    <ClCompile Include="emoji\EmojiButton.cpp" />
+    <ClCompile Include="emoji\EmojiDB.cpp" />
+    <ClCompile Include="emoji\EmojiGraphicsItem.cpp" />
+    <ClCompile Include="emoji\EmojiImages.cpp" />
+    <ClCompile Include="emoji\EmojiPedia.cpp" />
+    <ClCompile Include="emoji\EmojisGraphicsWidget.cpp" />
+    <ClCompile Include="emoji\EmojiWindow.cpp" />
+    <ClCompile Include="emoji\Settings.cpp" />
+    <ClCompile Include="emoji\tinyutf8.cpp" />
+    <ClCompile Include="FileClient.cpp" />
+    <ClCompile Include="FileClientThread.cpp" />
+    <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="FileSession.cpp" />
+    <ClCompile Include="FriendChatWidget.cpp" />
+    <ClCompile Include="FriendItem.cpp" />
+    <ClCompile Include="Group.cpp" />
+    <ClCompile Include="GroupList.cpp" />
+    <ClCompile Include="IMClientThread.cpp" />
+    <ClCompile Include="manager\User.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="MessageCache.cpp" />
+    <ClCompile Include="MessageType.cpp" />
+    <ClCompile Include="Protocol.cpp" />
+    <ClCompile Include="Self.cpp" />
+    <ClCompile Include="SmoothScrollBar.cpp" />
+    <ClCompile Include="SQLiteContact.cpp" />
+    <ClCompile Include="SQLiteManager.cpp" />
+    <ClCompile Include="SQLiteMessage.cpp" />
+    <ClCompile Include="SQLiteThread.cpp" />
+    <ClCompile Include="Status.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="UserList.cpp" />
+    <ClCompile Include="widget\LoginWidget.cpp" />
+    <ClCompile Include="widget\MainWindow.cpp" />
+    <ClCompile Include="widget\MyWidgets\MyIconButton.cpp" />
+    <ClCompile Include="widget\RoundLabel.cpp" />
+    <QtRcc Include="IMClient.qrc" />
+    <QtUic Include="bubble.ui" />
+    <QtUic Include="BubbleToMe.ui" />
+    <QtUic Include="IMClient.ui" />
+    <ClCompile Include="IMClient.cpp" />
+    <ClCompile Include="main.cpp" />
+    <QtUic Include="Widget.ui" />
+    <QtUic Include="widget\LoginWidget.ui" />
+    <QtUic Include="widget\MainWindow.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="widget\LoginWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="widget\RoundLabel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="widget\MainWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="widget\MyWidgets\MyIconButton.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddFriendWidget.h" />
+    <QtMoc Include="ClientSession.h" />
+    <QtMoc Include="FriendItem.h" />
+    <QtMoc Include="ChatInput.h" />
+    <QtMoc Include="chatMessage.h" />
+    <QtMoc Include="ChatListWidget.h" />
+    <ClInclude Include="base\base.h" />
+    <ClInclude Include="base\config.h" />
+    <ClInclude Include="base\copyable.h" />
+    <ClInclude Include="base\crc64.h" />
+    <ClInclude Include="base\crcspeed.h" />
+    <ClInclude Include="base\Date.h" />
+    <ClInclude Include="base\Endian.h" />
+    <ClInclude Include="base\Logging.h" />
+    <ClInclude Include="base\LogStream.h" />
+    <ClInclude Include="base\noncopyable.h" />
+    <ClInclude Include="base\nonmoveable.h" />
+    <ClInclude Include="base\Singleton.h" />
+    <ClInclude Include="base\StringPiece.h" />
+    <ClInclude Include="base\Timestamp.h" />
+    <ClInclude Include="base\TimeZone.h" />
+    <ClInclude Include="base\Types.h" />
+    <ClInclude Include="ByteArray.h" />
+    <ClInclude Include="ContactId.h" />
+    <QtMoc Include="emoji\EmojiButton.h" />
+    <ClInclude Include="emoji\EmojiDB.hpp" />
+    <ClInclude Include="emoji\EmojiGraphicsItem.hpp" />
+    <ClInclude Include="emoji\EmojiImages.hpp" />
+    <ClInclude Include="emoji\EmojiPedia.hpp" />
+    <QtMoc Include="emoji\EmojisGraphicsWidget.hpp" />
+    <QtMoc Include="emoji\EmojiWindow.hpp" />
+    <ClInclude Include="emoji\Settings.hpp" />
+    <ClInclude Include="emoji\simple-json.hpp" />
+    <ClInclude Include="emoji\tinyutf8.hpp" />
+    <QtMoc Include="FriendChatWidget.h" />
+    <QtMoc Include="FileClient.h" />
+    <QtMoc Include="FileManager.h" />
+    <QtMoc Include="FileClientThread.h" />
+    <ClInclude Include="FileSession.h" />
+    <ClInclude Include="Group.h" />
+    <ClInclude Include="GroupList.h" />
+    <QtMoc Include="IMClient.h" />
+    <QtMoc Include="IMClientThread.h" />
+    <ClInclude Include="manager\User.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="MessageCache.h" />
+    <ClInclude Include="MessageType.h" />
+    <ClInclude Include="Protocol.h" />
+    <ClInclude Include="resource.h" />
+    <QtMoc Include="SmoothScrollBar.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="Self.h" />
+    <ClInclude Include="SQLiteContact.h" />
+    <ClInclude Include="SQLiteManager.h" />
+    <ClInclude Include="SQLiteMessage.h" />
+    <ClInclude Include="SQLiteThread.h" />
+    <ClInclude Include="Status.h" />
+    <ClInclude Include="Thread.h" />
+    <ClInclude Include="UserList.h" />
+    <ClInclude Include="UserManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IMClient1.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

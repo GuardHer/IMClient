@@ -1,0 +1,33 @@
+🍞 Bread
+🥐 Croissant
+🥖 Baguette Bread
+🥨 Pretzel
+🫓 Flatbread
+🥯 Bagel
+🥞 Pancakes
+🧇 Waffle
+🧀 Cheese Wedge
+🍖 Meat on Bone
+🍗 Poultry Leg
+🥩 Cut of Meat
+🥓 Bacon
+🍔 Hamburger
+🍟 French Fries
+🍕 Pizza
+🌭 Hot Dog
+🥪 Sandwich
+🌮 Taco
+🌯 Burrito
+🫔 Tamale
+🥙 Stuffed Flatbread
+🧆 Falafel
+🍳 Cooking
+🥘 Shallow Pan of Food
+🍲 Pot of Food
+🫕 Fondue
+🥣 Bowl With Spoon
+🥗 Green Salad
+🍿 Popcorn
+🧈 Butter
+🧂 Salt
+🥫 Canned Food

@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\sql">
+      <UniqueIdentifier>{9476a8a1-4881-451a-8637-496900a5931d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget">
+      <UniqueIdentifier>{6d103605-b28d-41e3-8ed8-806b169f9981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\widget">
+      <UniqueIdentifier>{8387ec18-935a-4681-ba78-4bd9a4c04909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sql">
+      <UniqueIdentifier>{4dfe33ef-7fee-4d56-a5a9-29e98a9eab2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\customWidget">
+      <UniqueIdentifier>{9846ee18-e83b-43c7-9069-330dd24a3142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\customWidget">
+      <UniqueIdentifier>{3ac15e49-6744-418e-9403-fdb770d886d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{d4b5fa5c-736c-45af-9d35-f81a979b327c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\Group">
+      <UniqueIdentifier>{f085bb5c-f1dc-4f04-84ea-3c49cb043ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{4220a008-135e-4b49-9222-b863bf407c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\Group">
+      <UniqueIdentifier>{ab01318c-0e1c-4dae-a6ee-319ca51cac31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\user">
+      <UniqueIdentifier>{c8e0c46b-17c4-4c8d-ac37-8420cc47ef54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\user">
+      <UniqueIdentifier>{b97399e7-b0a7-4736-9b28-0632660a69af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\Message">
+      <UniqueIdentifier>{446989bf-f86a-4c35-9e08-25dc2d98b014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\Message">
+      <UniqueIdentifier>{96574e25-15fc-4985-bfa0-009b2f49e8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{3ba6ad0d-1850-4649-be71-e32b1946c019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\emoji">
+      <UniqueIdentifier>{424e364e-1e1c-4286-a4e1-58dae0d8e956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\emoji">
+      <UniqueIdentifier>{28b43dd8-dd8d-4a13-ab79-a54ecf433e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\service">
+      <UniqueIdentifier>{3b33f23a-5c2e-4049-8506-9b55ffbd9496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service">
+      <UniqueIdentifier>{a2917642-f06c-4c35-8a9f-2ea249025366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base\crc">
+      <UniqueIdentifier>{0217b73b-d286-4cf5-9ca3-8da8285f1fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\base">
+      <UniqueIdentifier>{86bbf2e6-b36e-496c-ae19-b657a76992a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fileServer">
+      <UniqueIdentifier>{076ebc75-297e-4e06-bffd-7aca2e5a7f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imserver">
+      <UniqueIdentifier>{7133d665-79e8-45e5-be99-838999cee8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imserver">
+      <UniqueIdentifier>{86fa07cc-23b0-48cd-9c0b-134d1074c9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fileserver">
+      <UniqueIdentifier>{4e7e933e-b067-4b95-a3db-775e923cd625}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="IMClient.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="IMClient.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteManager.cpp">
+      <Filter>Source Files\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendItem.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\LoginWidget.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\MainWindow.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="SmoothScrollBar.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\MyWidgets\MyIconButton.cpp">
+      <Filter>Source Files\customWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\RoundLabel.cpp">
+      <Filter>Source Files\customWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Status.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatInput.cpp">
+      <Filter>Source Files\customWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Source Files\model\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="ContactId.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupList.cpp">
+      <Filter>Source Files\model\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\User.cpp">
+      <Filter>Source Files\model\user</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendChatWidget.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="AddFriendWidget.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="UserList.cpp">
+      <Filter>Source Files\model\user</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatListWidget.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files\model\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageType.cpp">
+      <Filter>Source Files\model\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteMessage.cpp">
+      <Filter>Source Files\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteContact.cpp">
+      <Filter>Source Files\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="Self.cpp">
+      <Filter>Source Files\model\user</Filter>
+    </ClCompile>
+    <ClCompile Include="emoji\EmojiButton.cpp">
+      <Filter>Source Files\emoji</Filter>
+    </ClCompile>
+    <ClCompile Include="emoji\EmojiDB.cpp">
+      <Filter>Source Files\emoji</Filter>
+    </ClCompile>
+    <ClCompile Include="emoji\EmojiGraphicsItem.cpp">
+      <Filter>Source Files\emoji</Filter>
+    </ClCompile>
+    <ClCompile Include="emoji\EmojiImages.cpp">
+      <Filter>Source Files\emoji</Filter>
+    </ClCompile>
+    <ClCompile Include="emoji\EmojiPedia.cpp">
+      <Filter>Source Files\emoji</Filter>
+    </ClCompile>
+    <ClCompile Include="emoji\EmojisGraphicsWidget.cpp">
+      <Filter>Source Files\emoji</Filter>
+    </ClCompile>
+    <ClCompile Include="emoji\EmojiWindow.cpp">
+      <Filter>Source Files\emoji</Filter>
+    </ClCompile>
+    <ClCompile Include="emoji\Settings.cpp">
+      <Filter>Source Files\emoji</Filter>
+    </ClCompile>
+    <ClCompile Include="emoji\tinyutf8.cpp">
+      <Filter>Source Files\emoji</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Logging.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteThread.cpp">
+      <Filter>Source Files\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageCache.cpp">
+      <Filter>Source Files\model\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="base\TimeZone.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Timestamp.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\LogStream.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Date.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="base\crc64.cpp">
+      <Filter>Source Files\base\crc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\crcspeed.cpp">
+      <Filter>Source Files\base\crc</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteArray.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\config.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="chatMessage.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSession.cpp">
+      <Filter>Source Files\imserver</Filter>
+    </ClCompile>
+    <ClCompile Include="IMClient.cpp">
+      <Filter>Source Files\imserver</Filter>
+    </ClCompile>
+    <ClCompile Include="IMClientThread.cpp">
+      <Filter>Source Files\imserver</Filter>
+    </ClCompile>
+    <ClCompile Include="FileClient.cpp">
+      <Filter>Source Files\fileserver</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Source Files\fileserver</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSession.cpp">
+      <Filter>Source Files\fileserver</Filter>
+    </ClCompile>
+    <ClCompile Include="FileClientThread.cpp">
+      <Filter>Source Files\fileserver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="FriendItem.h">
+      <Filter>Header Files\widget</Filter>
+    </QtMoc>
+    <QtMoc Include="widget\LoginWidget.h">
+      <Filter>Header Files\widget</Filter>
+    </QtMoc>
+    <QtMoc Include="widget\MainWindow.h">
+      <Filter>Header Files\widget</Filter>
+    </QtMoc>
+    <QtMoc Include="SmoothScrollBar.h">
+      <Filter>Header Files\widget</Filter>
+    </QtMoc>
+    <QtMoc Include="widget\RoundLabel.h">
+      <Filter>Header Files\customWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="ChatInput.h">
+      <Filter>Header Files\customWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="widget\MyWidgets\MyIconButton.h">
+      <Filter>Header Files\customWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="emoji\EmojiButton.h">
+      <Filter>Header Files\emoji</Filter>
+    </QtMoc>
+    <QtMoc Include="emoji\EmojisGraphicsWidget.hpp">
+      <Filter>Header Files\emoji</Filter>
+    </QtMoc>
+    <QtMoc Include="emoji\EmojiWindow.hpp">
+      <Filter>Header Files\emoji</Filter>
+    </QtMoc>
+    <QtMoc Include="FriendChatWidget.h">
+      <Filter>Header Files\widget</Filter>
+    </QtMoc>
+    <QtMoc Include="IMClient.h">
+      <Filter>Header Files\imserver</Filter>
+    </QtMoc>
+    <QtMoc Include="IMClientThread.h">
+      <Filter>Header Files\imserver</Filter>
+    </QtMoc>
+    <QtMoc Include="ChatListWidget.h">
+      <Filter>Header Files\widget</Filter>
+    </QtMoc>
+    <QtMoc Include="chatMessage.h">
+      <Filter>Header Files\widget</Filter>
+    </QtMoc>
+    <QtMoc Include="ClientSession.h">
+      <Filter>Header Files\imserver</Filter>
+    </QtMoc>
+    <QtMoc Include="FileClient.h">
+      <Filter>Header Files\fileServer</Filter>
+    </QtMoc>
+    <QtMoc Include="FileManager.h">
+      <Filter>Header Files\fileServer</Filter>
+    </QtMoc>
+    <QtMoc Include="FileClientThread.h">
+      <Filter>Header Files\fileServer</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="widget\LoginWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="widget\MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Widget.ui">
+      <Filter>Header Files</Filter>
+    </QtUic>
+    <QtUic Include="bubble.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BubbleToMe.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SQLiteManager.h">
+      <Filter>Header Files\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>Header Files\model\user</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactId.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupList.h">
+      <Filter>Header Files\model\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\User.h">
+      <Filter>Header Files\model\user</Filter>
+    </ClInclude>
+    <ClInclude Include="AddFriendWidget.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="UserList.h">
+      <Filter>Header Files\model\user</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Header Files\model\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files\model\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageType.h">
+      <Filter>Header Files\model\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteMessage.h">
+      <Filter>Header Files\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteContact.h">
+      <Filter>Header Files\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="Self.h">
+      <Filter>Header Files\model\user</Filter>
+    </ClInclude>
+    <ClInclude Include="emoji\EmojiDB.hpp">
+      <Filter>Header Files\emoji</Filter>
+    </ClInclude>
+    <ClInclude Include="emoji\EmojiGraphicsItem.hpp">
+      <Filter>Header Files\emoji</Filter>
+    </ClInclude>
+    <ClInclude Include="emoji\EmojiImages.hpp">
+      <Filter>Header Files\emoji</Filter>
+    </ClInclude>
+    <ClInclude Include="emoji\EmojiPedia.hpp">
+      <Filter>Header Files\emoji</Filter>
+    </ClInclude>
+    <ClInclude Include="emoji\Settings.hpp">
+      <Filter>Header Files\emoji</Filter>
+    </ClInclude>
+    <ClInclude Include="emoji\simple-json.hpp">
+      <Filter>Header Files\emoji</Filter>
+    </ClInclude>
+    <ClInclude Include="emoji\tinyutf8.hpp">
+      <Filter>Header Files\emoji</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteThread.h">
+      <Filter>Header Files\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageCache.h">
+      <Filter>Header Files\model\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Header Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\copyable.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\crc64.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\crcspeed.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Date.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Logging.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\LogStream.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\nonmoveable.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Singleton.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\StringPiece.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Timestamp.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\TimeZone.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Types.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\noncopyable.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteArray.h">
+      <Filter>Header Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Endian.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\config.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSession.h">
+      <Filter>Header Files\fileServer</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IMClient1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+⬆️ Up Arrow
+↗️ Up-Right Arrow
+➡️ Right Arrow
+↘️ Down-Right Arrow
+⬇️ Down Arrow
+↙️ Down-Left Arrow
+⬅️ Left Arrow
+↖️ Up-Left Arrow
+↕️ Up-Down Arrow
+↔️ Left-Right Arrow
+↩️ Right Arrow Curving Left
+↪️ Left Arrow Curving Right
+⤴️ Right Arrow Curving Up
+⤵️ Right Arrow Curving Down
+🔙 Back Arrow
+🔚 End Arrow
+🔛 On! Arrow
+🔜 Soon Arrow
+🔝 Top Arrow
+🔃 Clockwise Vertical Arrows
+🔄 Counterclockwise Arrows Button
+♻️ Recycling Symbol

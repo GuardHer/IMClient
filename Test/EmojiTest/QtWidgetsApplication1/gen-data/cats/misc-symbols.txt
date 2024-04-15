@@ -1,0 +1,178 @@
+🛂 Passport Control
+🛃 Customs
+🛄 Baggage Claim
+🛅 Left Luggage
+💯 Hundred Points
+💢 Anger Symbol
+💬 Speech Balloon
+👁️‍🗨️ Eye in Speech Bubble
+🗯 Right Anger Bubble
+💭 Thought Balloon
+💤 Zzz
+💮 White Flower
+♨ Hot Springs
+💈 Barber Pole
+🛑 Stop Sign
+🌀 Cyclone
+♠️ Spade Suit
+♥️ Heart Suit
+♦️ Diamond Suit
+♣️ Club Suit
+🃏 Joker
+🀄 Mahjong Red Dragon
+🎴 Flower Playing Cards
+🏧 ATM Sign
+🚮 Litter in Bin Sign
+🚰 Potable Water
+♿ Wheelchair Symbol
+🚹 Men’s Room
+🚺 Women’s Room
+🚻 Restroom
+🚼 Baby Symbol
+🚾 Water Closet
+🛗 Elevator
+⚠️ Warning
+🚸 Children Crossing
+⛔ No Entry
+🚫 Prohibited
+🚳 No Bicycles
+🚭 No Smoking
+🚯 No Littering
+🚱 Non-Potable Water
+🚷 No Pedestrians
+🔞 No One Under Eighteen
+☢️ Radioactive
+☣️ Biohazard
+🔃 Clockwise Vertical Arrows
+🔄 Counterclockwise Arrows Button
+⚛️ Atom Symbol
+🎦 Cinema
+🔅 Dim Button
+🔆 Bright Button
+📶 Antenna Bars
+📳 Vibration Mode
+📴 Mobile Phone Off
+♀️ Female Sign
+♂️ Male Sign
+⚧️ Transgender Symbol
+♾️ Infinity
+♻️ Recycling Symbol
+🔱 Trident Emblem
+📛 Name Badge
+🔰 Japanese Symbol for Beginner
+⭕ Heavy Large Circle
+✅ White Heavy Check Mark
+☑️ Ballot Box With Check
+✔️ Heavy Check Mark
+✖️ Heavy Multiplication X
+❌ Cross Mark
+❎ Cross Mark Button
+➕ Heavy Plus Sign
+➖ Heavy Minus Sign
+➗ Heavy Division Sign
+🟰 Heavy equals sign
+➰ Curly Loop
+➿ Double Curly Loop
+〽️ Part Alternation Mark
+✳️ Eight-Spoked Asterisk
+✴️ Eight-Pointed Star
+❇️ Sparkle
+‼️ Double Exclamation Mark
+⁉️ Exclamation Question Mark
+❓ Question Mark
+❔ White Question Mark
+❕ White Exclamation Mark
+❗ Exclamation Mark
+©️ Copyright
+®️ Registered
+™️ Trade Mark
+#️⃣ Keycap Number Sign
+0️⃣ Keycap Digit Zero
+1️⃣ Keycap Digit One
+2️⃣ Keycap Digit Two
+3️⃣ Keycap Digit Three
+4️⃣ Keycap Digit Four
+5️⃣ Keycap Digit Five
+6️⃣ Keycap Digit Six
+7️⃣ Keycap Digit Seven
+8️⃣ Keycap Digit Eight
+9️⃣ Keycap Digit Nine
+🔟 Keycap: 10
+🔠 Input Latin Uppercase
+🔡 Input Latin Lowercase
+🔢 Input Numbers
+🔣 Input Symbols
+🔤 Input Latin Letters
+🅰 A Button (Blood Type)
+🆎 AB Button (Blood Type)
+🅱 B Button (Blood Type)
+🅾 O Button (Blood Type)
+🆑 CL Button
+🆒 Cool Button
+🆓 Free Button
+ℹ️ Information
+🆔 ID Button
+Ⓜ️ Circled M
+🆕 New Button
+🆖 NG Button
+🆗 OK Button
+🅿 P Button
+🆘 SOS Button
+🆙 Up! Button
+🆚 Vs Button
+🈁 Japanese “Here” Button
+🈂 Japanese “Service Charge” Button
+🈷 Japanese “Monthly Amount” Button
+🈶 Japanese “Not Free of Charge” Button
+🈯 Japanese “Reserved” Button
+🉐 Japanese “Bargain” Button
+🈹 Japanese “Discount” Button
+🈚 Japanese “Free of Charge” Button
+🈲 Japanese “Prohibited” Button
+🉑 Japanese “Acceptable” Button
+🈸 Japanese “Application” Button
+🈴 Japanese “Passing Grade” Button
+🈳 Japanese “Vacancy” Button
+㊗ Japanese “Congratulations” Button
+㊙ Japanese “Secret” Button
+🈺 Japanese “Open for Business” Button
+🈵 Japanese “No Vacancy” Button
+🔴 Red Circle
+🟠 Orange Circle
+🟡 Yellow Circle
+🟢 Green Circle
+🔵 Blue Circle
+🟣 Purple Circle
+🟤 Brown Circle
+⚫ Black Circle
+⚪ White Circle
+🟥 Red Square
+🟧 Orange Square
+🟨 Yellow Square
+🟩 Green Square
+🟦 Blue Square
+🟪 Purple Square
+🟫 Brown Square
+⬛ Black Large Square
+⬜ White Large Square
+◼️ Black Medium Square
+◻️ White Medium Square
+◾ Black Medium-Small Square
+◽ White Medium-Small Square
+▪️ Black Small Square
+▫️ White Small Square
+🔶 Large Orange Diamond
+🔷 Large Blue Diamond
+🔸 Small Orange Diamond
+🔹 Small Blue Diamond
+🔺 Red Triangle Pointed Up
+🔻 Red Triangle Pointed Down
+💠 Diamond With a Dot
+🔳 White Square Button
+🔲 Black Square Button
+🗣 Speaking Head
+👤 Bust in Silhouette
+👥 Busts in Silhouette
+🫂 People Hugging
+💥 Collision
+💫 Dizzy

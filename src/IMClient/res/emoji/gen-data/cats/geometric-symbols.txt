@@ -1,0 +1,35 @@
+🔴 Red Circle
+🟠 Orange Circle
+🟡 Yellow Circle
+🟢 Green Circle
+🔵 Blue Circle
+🟣 Purple Circle
+🟤 Brown Circle
+⚫ Black Circle
+⚪ White Circle
+⭕ Heavy Large Circle
+🟥 Red Square
+🟧 Orange Square
+🟨 Yellow Square
+🟩 Green Square
+🟦 Blue Square
+🟪 Purple Square
+🟫 Brown Square
+⬛ Black Large Square
+⬜ White Large Square
+◼️ Black Medium Square
+◻️ White Medium Square
+◾ Black Medium-Small Square
+◽ White Medium-Small Square
+▪️ Black Small Square
+▫️ White Small Square
+🔳 White Square Button
+🔲 Black Square Button
+🔶 Large Orange Diamond
+🔷 Large Blue Diamond
+🔸 Small Orange Diamond
+🔹 Small Blue Diamond
+💠 Diamond With a Dot
+♦️ Diamond Suit
+🔺 Red Triangle Pointed Up
+🔻 Red Triangle Pointed Down
